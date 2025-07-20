@@ -1,0 +1,93 @@
+CodeBook
+Overview
+This codebook describes the variables in the tidy dataset FinalData.txt created from the Human Activity Recognition Using Smartphones Dataset. The data consists of the average of each measurement variable for each subject and each activity.
+
+Identifiers
+| Variable   | Description                                  |
+| ---------- | -------------------------------------------- |
+| `subject`  | Integer identifier for the subject (1 to 30) |
+| `activity` | Activity label performed by the subject      |
+
+
+Activity labels include:
+- WALKING
+- WALKING_UPSTAIRS
+- WALKING_DOWNSTAIRS
+- SITTING
+- STANDING
+- LAYING
+
+Feature Variables
+The remaining variables are numeric values representing the average of the measurements related to mean and standard deviation for each subject-activity pair. All have been cleaned and renamed for clarity.
+
+Variable Name	Description
+TimeBodyAccelerometerMeanX	Mean time domain signal from body accelerometer in X direction
+TimeBodyAccelerometerMeanY	Mean time domain signal from body accelerometer in Y direction
+TimeBodyAccelerometerMeanZ	Mean time domain signal from body accelerometer in Z direction
+TimeBodyAccelerometerSTDX	Standard deviation of time domain signal from body accelerometer in X direction
+TimeBodyAccelerometerSTDY	Standard deviation of time domain signal from body accelerometer in Y direction
+TimeBodyAccelerometerSTDZ	Standard deviation of time domain signal from body accelerometer in Z direction
+TimeGravityAccelerometerMeanX	Mean time domain signal from gravity accelerometer in X direction
+TimeGravityAccelerometerMeanY	Mean time domain signal from gravity accelerometer in Y direction
+TimeGravityAccelerometerMeanZ	Mean time domain signal from gravity accelerometer in Z direction
+TimeGravityAccelerometerSTDX	Standard deviation of time domain signal from gravity accelerometer in X direction
+TimeGravityAccelerometerSTDY	Standard deviation of time domain signal from gravity accelerometer in Y direction
+TimeGravityAccelerometerSTDZ	Standard deviation of time domain signal from gravity accelerometer in Z direction
+TimeBodyAccelerometerJerkMeanX	Mean time domain signal from body accelerometer jerk in X direction
+TimeBodyAccelerometerJerkMeanY	Mean time domain signal from body accelerometer jerk in Y direction
+TimeBodyAccelerometerJerkMeanZ	Mean time domain signal from body accelerometer jerk in Z direction
+TimeBodyAccelerometerJerkSTDX	Standard deviation of time domain signal from body accelerometer jerk in X direction
+TimeBodyAccelerometerJerkSTDY	Standard deviation of time domain signal from body accelerometer jerk in Y direction
+TimeBodyAccelerometerJerkSTDZ	Standard deviation of time domain signal from body accelerometer jerk in Z direction
+TimeBodyGyroscopeMeanX	Mean time domain signal from body gyroscope in X direction
+TimeBodyGyroscopeMeanY	Mean time domain signal from body gyroscope in Y direction
+TimeBodyGyroscopeMeanZ	Mean time domain signal from body gyroscope in Z direction
+TimeBodyGyroscopeSTDX	Standard deviation of time domain signal from body gyroscope in X direction
+TimeBodyGyroscopeSTDY	Standard deviation of time domain signal from body gyroscope in Y direction
+TimeBodyGyroscopeSTDZ	Standard deviation of time domain signal from body gyroscope in Z direction
+TimeBodyGyroscopeJerkMeanX	Mean time domain signal from body gyroscope jerk in X direction
+TimeBodyGyroscopeJerkMeanY	Mean time domain signal from body gyroscope jerk in Y direction
+TimeBodyGyroscopeJerkMeanZ	Mean time domain signal from body gyroscope jerk in Z direction
+TimeBodyGyroscopeJerkSTDX	Standard deviation of time domain signal from body gyroscope jerk in X direction
+TimeBodyGyroscopeJerkSTDY	Standard deviation of time domain signal from body gyroscope jerk in Y direction
+TimeBodyGyroscopeJerkSTDZ	Standard deviation of time domain signal from body gyroscope jerk in Z direction
+TimeBodyAccelerometerMagnitudeMean	Mean of magnitude of time domain body accelerometer signal
+TimeBodyAccelerometerMagnitudeSTD	Standard deviation of magnitude of time domain body accelerometer signal
+TimeGravityAccelerometerMagnitudeMean	Mean of magnitude of time domain gravity accelerometer signal
+TimeGravityAccelerometerMagnitudeSTD	Standard deviation of magnitude of time domain gravity accelerometer signal
+TimeBodyAccelerometerJerkMagnitudeMean	Mean of magnitude of time domain body accelerometer jerk signal
+TimeBodyAccelerometerJerkMagnitudeSTD	Standard deviation of magnitude of time domain body accelerometer jerk signal
+TimeBodyGyroscopeMagnitudeMean	Mean of magnitude of time domain body gyroscope signal
+TimeBodyGyroscopeMagnitudeSTD	Standard deviation of magnitude of time domain body gyroscope signal
+TimeBodyGyroscopeJerkMagnitudeMean	Mean of magnitude of time domain body gyroscope jerk signal
+TimeBodyGyroscopeJerkMagnitudeSTD	Standard deviation of magnitude of time domain body gyroscope jerk signal
+FrequencyBodyAccelerometerMeanX	Mean frequency domain signal from body accelerometer in X direction
+FrequencyBodyAccelerometerMeanY	Mean frequency domain signal from body accelerometer in Y direction
+FrequencyBodyAccelerometerMeanZ	Mean frequency domain signal from body accelerometer in Z direction
+FrequencyBodyAccelerometerSTDX	Standard deviation of frequency domain signal from body accelerometer in X direction
+FrequencyBodyAccelerometerSTDY	Standard deviation of frequency domain signal from body accelerometer in Y direction
+FrequencyBodyAccelerometerSTDZ	Standard deviation of frequency domain signal from body accelerometer in Z direction
+FrequencyBodyAccelerometerJerkMeanX	Mean frequency domain signal from body accelerometer jerk in X direction
+FrequencyBodyAccelerometerJerkMeanY	Mean frequency domain signal from body accelerometer jerk in Y direction
+FrequencyBodyAccelerometerJerkMeanZ	Mean frequency domain signal from body accelerometer jerk in Z direction
+FrequencyBodyAccelerometerJerkSTDX	Standard deviation of frequency domain signal from body accelerometer jerk in X direction
+FrequencyBodyAccelerometerJerkSTDY	Standard deviation of frequency domain signal from body accelerometer jerk in Y direction
+FrequencyBodyAccelerometerJerkSTDZ	Standard deviation of frequency domain signal from body accelerometer jerk in Z direction
+FrequencyBodyGyroscopeMeanX	Mean frequency domain signal from body gyroscope in X direction
+FrequencyBodyGyroscopeMeanY	Mean frequency domain signal from body gyroscope in Y direction
+FrequencyBodyGyroscopeMeanZ	Mean frequency domain signal from body gyroscope in Z direction
+FrequencyBodyGyroscopeSTDX	Standard deviation of frequency domain signal from body gyroscope in X direction
+FrequencyBodyGyroscopeSTDY	Standard deviation of frequency domain signal from body gyroscope in Y direction
+FrequencyBodyGyroscopeSTDZ	Standard deviation of frequency domain signal from body gyroscope in Z direction
+FrequencyBodyAccelerometerMagnitudeMean	Mean of magnitude of frequency domain body accelerometer signal
+FrequencyBodyAccelerometerMagnitudeSTD	Standard deviation of magnitude of frequency domain body accelerometer signal
+FrequencyBodyAccelerometerJerkMagnitudeMean	Mean of magnitude of frequency domain body accelerometer jerk signal
+FrequencyBodyAccelerometerJerkMagnitudeSTD	Standard deviation of magnitude of frequency domain body accelerometer jerk signal
+FrequencyBodyGyroscopeMagnitudeMean	Mean of magnitude of frequency domain body gyroscope signal
+FrequencyBodyGyroscopeMagnitudeSTD	Standard deviation of magnitude of frequency domain body gyroscope signal
+FrequencyBodyGyroscopeJerkMagnitudeMean	Mean of magnitude of frequency domain body gyroscope jerk signal
+FrequencyBodyGyroscopeJerkMagnitudeSTD	Standard deviation of magnitude of frequency domain body gyroscope jerk signal
+
+
+
+
